@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=0.1">
+        <meta name="author" content="Richard Fritzner">
+        <link rel="icon" href="assets/icon/favicon_io/favicon.ico" type="image/x-icon">
+        <title>Contact</title>
+        <link rel="stylesheet" href="css/contact.css">
+    </head>
+
+    <body>
+        <header>
+            <nav class="main-head">
+                <a href="index.html"><img id="logo" src="image/vector_ritchart_v_01.png" alt="logo ritchart concept" width="1500" height="1500"></a>
+                <ul class="nav-links">
+                    <li><a href="index.html">Illustration</a></li>
+                    <li><a href="design.html">Design</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </header> 
+
+        <section class="contact-section">
+
+            <!-- LEFT : FORM -->
+            <div class="contact-left">
+            <form class="contact-form" action="https://formspree.io/f/xzdpnjbq" method="post">
+          
+              <h2>Contact</h2>
+          
+              <!-- Last Name -->
+              <div class="form-group">
+                <label for="lastName">Last Name *</label>
+                <input type="text" id="lastName" name="lastName" required>
+                <small>Please enter your Last name.</small>
+              </div>
+          
+              <!-- First Name -->
+              <div class="form-group">
+                <label for="firstName">First Name *</label>
+                <input type="text" id="firstName" name="firstName" required>
+                <small>Please enter your First name.</small>
+              </div>
+          
+              <!-- Email -->
+              <div class="form-group">
+                <label for="email">Email *</label>
+                <input type="email" id="email" name="email" required>
+                <small>We will contact you via this email.</small>
+              </div>
+          
+              <!-- Phone -->
+              <div class="form-group">
+                <label for="phone">Phone Number *</label>
+                <div class="phone-wrapper">
+                    <select name="countryCode" id="countryCode" required>
+                        <option value="+1">🇺🇸 USA +1</option>
+      <option value="+1">🇨🇦 Canada +1</option>
+      <option value="+44">🇬🇧 UK +44</option>
+      <option value="+33">🇫🇷 France +33</option>
+      <option value="+49">🇩🇪 Germany +49</option>
+      <option value="+34">🇪🇸 Spain +34</option>
+      <option value="+39">🇮🇹 Italy +39</option>
+
+      <option value="+509">🇭🇹 Haiti +509</option>
+      <option value="+1809">🇩🇴 Dominican Rep. +1 809</option>
+      <option value="+1876">🇯🇲 Jamaica +1 876</option>
+
+      <option value="+55">🇧🇷 Brazil +55</option>
+      <option value="+52">🇲🇽 Mexico +52</option>
+      <option value="+57">🇨🇴 Colombia +57</option>
+
+      <option value="+20">🇪🇬 Egypt +20</option>
+      <option value="+27">🇿🇦 South Africa +27</option>
+      <option value="+234">🇳🇬 Nigeria +234</option>
+
+      <option value="+91">🇮🇳 India +91</option>
+      <option value="+86">🇨🇳 China +86</option>
+      <option value="+81">🇯🇵 Japan +81</option>
+      <option value="+82">🇰🇷 South Korea +82</option>
+
+      <option value="+971">🇦🇪 UAE +971</option>
+      <option value="+966">🇸🇦 Saudi Arabia +966</option>
+
+      <option value="+61">🇦🇺 Australia +61</option>
+      <option value="+64">🇳🇿 New Zealand +64</option>
+                      </select>
+                  <input type="tel" id="phone" name="phone" placeholder="00000000" required>
+                </div>
+                <small>Please enter a valid contact number.</small>
+              </div>
+          
+              <!-- Project Description -->
+              <div class="form-group">
+                <label for="project">Project Description *</label>
+                <textarea id="project" name="project" rows="4" required></textarea>
+                <small>Provide details about your project and the style of illustration you are looking for.</small>
+              </div>
+          
+              <!-- Budget Range -->
+              <div class="form-group">
+                <label for="budget">Budget Range</label>
+                <select id="budget" name="budget">
+                  <option value="">Select an option</option>
+                  <option value="150-250">$150 – $250</option>
+                  <option value="250-500">$250 – $500</option>
+                  <option value="500-1000">$500 – $1000</option>
+                  <option value="1000-2000">$1000 – $2000</option>
+                  <option value="2000+">$2000+</option>
+                </select>
+              </div>
+          
+              <!-- Preferred Contact Method -->
+              <div class="form-group">
+                <label>Preferred Contact Method</label>
+          
+                <div class="checkbox-inline-group">
+                  <label>
+                    <input type="checkbox" name="contactMethod" value="email">
+                    Email
+                  </label>
+          
+                  <label>
+                    <input type="checkbox" name="contactMethod" value="phone">
+                    Phone
+                  </label>
+          
+                  <label>
+                    <input type="checkbox" name="contactMethod" value="whatsapp">
+                    WhatsApp
+                  </label>
+                </div>
+              </div>
+          
+              <!-- Additional Info -->
+              <div class="form-group">
+                <label for="additional">Additional Information</label>
+                <textarea id="additional" name="additional" rows="3"></textarea>
+                <small>Any other details or questions you have?</small>
+              </div>
+          
+              <!-- Privacy -->
+              <div class="form-group">
+                <p>By sending this message, you agree to our <a href="Privacy-policy.html" class="privacy-policy">privacy policy</a>.</p>
+              </div>
+          
+              <!-- Submit -->
+              <button type="submit" class="submit-btn columns">Submit</button>
+          
+            </form>
+        </div>
+
+        <!-- RIGHT : INFO / BRAND -->
+         <aside class="contact-right">
+            <img src="image/vector_ritchart_v_01.png" alt="logo ritchart" class="contact-logo">
+
+            <div class="contact-info">
+                <p><img src="">#19, Thomassin 22 Port-auPrince, Haiti</p>
+                <p><a href="mailto:ritchartconcept@gmail.com">ritchartconcept@gmail.com</a></p>
+                <p>Phone: +509 38 60 43 35</p>
+            </div>
+
+            <div class="contact-map">
+                <iframe src="https://www.google.com/maps?q=Port-au-Prince&output=embed" 
+                   loading="lazy" 
+                   referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+            </div>
+
+         </aside>
+
+          </section>
+    </body>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="copy-right">
+          <p>Prepared by Richard Fritzner | All rights reserved, December 2025 ©</p>
+      </div>
+      <div class="social-icon">
+          <ul>
+          <li class="social1"><a href="https://www.facebook.com/ritchartconcept/" target="_blank"><img src="assets/icon/facebook-app-round-icon-01.svg" alt="facebook link"></a></li>
+          <li class="social2"><a href="https://www.instagram.com/ritchart_concept/" target="_blank"><img src="assets/icon/Icon_social_media-01-01.svg" alt="instagram link"></a></li>
+          <li class="social3"><a href="https://www.youtube.com/@RitchartConcept" target="_blank"><img src="assets/icon/Icon_social_media-02-01.svg" alt="youtube link"></a></li>
+          <li class="social4"><a href="https://l.instagram.com/?u=https%3A%2F%2Fwa.me%2Fp%2F10053080341402757%2F50938604335%3Futm_source%3Dig%26utm_medium%3Dsocial%26utm_content%3Dlink_in_bio%26fbclid%3DPAZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQMMjU2MjgxMDQwNTU4AAGnF4K-5z5C5Ov--YP4naWI-r93kCUs3jfWwd117VGx9PGat9uRyoYCDfpWOJ0_aem_jXvA80i02o4KH3gPbxixDg&e=AT3O3wPA0zs_zD0a6k2ICKzlyYYtsTpgqHjKY9ZrEhM_XFSKLW0FqYLm_hJOO0j-zcWuAeLZIrigyTPmkPTIUvqZhxp2Rsgz1k49cn9uJQ" target="_blank"><img src="assets/icon/Icon_social_media-03-01.svg" alt="whatsapp link"></a></li>
+          <li class="social5"><a href="https://l.instagram.com/?u=http%3A%2F%2Fwww.linkedin.com%2Fin%2Ffritzner-richard-b9940a197%2F%3Futm_source%3Dig%26utm_medium%3Dsocial%26utm_content%3Dlink_in_bio%26fbclid%3DPAZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQMMjU2MjgxMDQwNTU4AAGn9vQfU3Z_c2_MvI5Zb9Zd6SlM5tQXC_ZSFflYeTVYODUrNHJ_jVp-NpdMnns_aem_hq4gXIqM-cRXtb3Adwvodg&e=AT3dlOJ5HM6Ht7zIV9OWeUNo_mpT265DhUrzwcYZ1iUw9MirazlXgH2CwB27yGZv_yBaZDFkANtqLIlWB5nPTyqRur6AvIRAKe5BIC9dfw" target="_blank"><img src="assets/icon/Icon_social_media-04-01.svg" alt="linkedin link"></a></li>
+          <li class="social6"><a href="https://x.com/FritznerRichard" target="_blank"><img src="assets/icon/x-social-media-round-icon-01.svg" alt="twitter-x link"></a></li>
+          </ul>
+      </div>
+      <div class="terms">
+          <a href="terms-and-conditions.html"><p>Terms and conditions</p></a>
+      </div>
+  </footer>
+</html>

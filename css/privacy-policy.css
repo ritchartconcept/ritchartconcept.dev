@@ -1,0 +1,209 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+html {
+    font-size: 62.5%;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+
+ul li {
+    font-size: 2rem;
+    margin: 0;
+    padding: 0;
+    gap: 0;
+}
+
+img {
+    width: 10%;
+    height: auto;
+}
+
+a {
+    color: #c543c1;
+    text-decoration: none;
+}
+
+/* style the header position fixed */
+
+.main-head {
+    background-color: rgb(244, 243, 243);
+    position: fixed; /* inportant to use top and left 
+    value to 0 and give a min height of 10vh when I set a position*/
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 19vh;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    z-index: 10;
+}
+
+nav {
+    width: 90%;
+    display: flex;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+    position: relative;
+
+}
+
+nav ul {
+    display: flex;
+    flex: 0 0 0.5px;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    gap: 50px;
+    margin-left: 400px;
+}
+
+a:hover {
+    color: #000000;
+}
+
+#logo {
+    width: 15%;
+    padding-left: 50px;
+}
+
+/* Menu perfectly centred */
+.nav-links {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    display: flex;
+    gap: 50px;
+    list-style: none;
+}
+
+/* the page privacy policy */
+body {
+    margin: 0;
+    background-color: #c543c1;
+    font-family: Arial, Helvetica, sans-serif;
+}
+  
+.policy-container {
+    max-width: 900px;
+    margin: 10rem auto;
+    background: #ffffff;
+    padding: 5rem;
+    border-radius: 8px;
+    color: #333;
+}
+  
+h1 {
+    font-size: 3.2rem;
+    color: #a30984;
+    margin-bottom: 1rem;
+}
+  
+.policy-meta {
+    font-size: 1.3rem;
+    color: #777;
+    margin-bottom: 4rem;
+}
+  
+h2 {
+    font-size: 2.2rem;
+    color: #a30984;
+    margin-top: 4rem;
+    margin-bottom: 1.2rem;
+}
+  
+h3 {
+    font-size: 1.7rem;
+    margin-top: 2rem;
+}
+  
+p,
+li,
+address {
+    font-size: 1.4rem;
+    line-height: 1.7;
+}
+  
+ul {
+    padding-left: 2rem;
+}
+  
+a {
+    color: #c543c1;
+    text-decoration: none;
+}
+  
+a:hover {
+    text-decoration: underline;
+}
+  
+address {
+    font-style: normal;
+}
+
+
+  /* style the footer with social media, thermes and condition */
+.footer {
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    align-items: center;
+    padding: 2rem 4rem;
+    background-color: aliceblue;
+}
+
+.footer p {
+    font-size: 1.2rem;
+    margin: 0;
+}
+
+/* perfect centered */
+.social-icon {
+    justify-self: center;
+}
+
+.social-icon ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 20px;
+}
+
+.social-icon li {
+    margin: 0;
+    padding: 0;
+}
+
+.social-icon img {
+    width: 30px;
+    height: 30px;
+    display: block;
+    transition: 0.3s ease;
+}
+
+.copy-right {
+    color: #c543c1;
+    justify-content: space-around;
+}
+
+/* gauche */
+.terms {
+    justify-self: start;
+    padding-left: 350px;
+}
+
+.terms a:hover {
+    color: #000000;
+    cursor: pointer; 
+}
+
+.social-icon img:hover {
+    filter: brightness(100) invert(1);
+}
+  
