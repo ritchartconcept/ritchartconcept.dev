@@ -92,7 +92,8 @@ body {
   
 .policy-container {
     max-width: 900px;
-    margin: 10rem auto;
+    margin: 0 auto;
+    margin-top: 22vh; 
     background: #ffffff;
     padding: 5rem;
     border-radius: 8px;
