@@ -32,11 +32,9 @@ a {
 
 .main-head {
     width: 100%;
-    height: 19vh;
     background-color: rgb(244, 243, 243);
     position: sticky; /* inportant to use sticky cause it's better than fixed*/
     top: 0;
-    left: 0;
     z-index: 1;
 }
 
