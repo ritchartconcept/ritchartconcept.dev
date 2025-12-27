@@ -99,7 +99,17 @@ body {
     border-radius: 8px;
     color: #333;
 }
-  
+
+.policy-container, 
+.about-page {
+    padding: 1rem;
+}
+
+.policy-container h1 {
+    font-size: clamp(1.5rem, 5vw, 2.5rem);
+}
+
+
 h1 {
     font-size: 3.2rem;
     color: #a30984;
