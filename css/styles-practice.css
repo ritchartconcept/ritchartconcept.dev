@@ -82,7 +82,7 @@ a:hover {
 
 /* The grid box for port-folio */
 .container {
-    margin-top: 19vh;
+    margin-top: 50px;
     background-color: rgb(185, 41, 185);
     color: aliceblue;
     display: grid;
