@@ -72,6 +72,8 @@ a:hover {
 
 /* Menu perfectly centred */
 .nav-links {
+    position: absolute;
+    left: 50%;
     display: flex;
     list-style: none;
     gap: 3rem;
