@@ -18,9 +18,8 @@ ul li {
 }
 
 img {
-    width: 100%;
+    width: 10%;
     height: auto;
-    display: block;
 }
 
 a {
@@ -50,6 +49,7 @@ nav {
     align-items: center;
     margin: auto;
     position: relative;
+
 }
 
 nav ul {
@@ -76,13 +76,10 @@ a:hover {
 .nav-links {
     position: absolute;
     left: 50%;
+    transform: translate(-50%);
     display: flex;
+    gap: 50px;
     list-style: none;
-    gap: 3rem;
-}
-
-.nav-links li a {
-    font-size: 1.6rem;
 }
 
 /* The grid box for port-folio */
@@ -98,11 +95,12 @@ a:hover {
 }
 
 .box {
+    width: 100%;
+    height: 400px;
+    aspect-ratio: 4 / 3;
     background-color: rgba(58, 58, 58, 0.876);
     overflow: hidden; /* super important pour éviter les débordements */
-    border-radius: 8px;
-    padding: 0.8rem;
-    aspect-ratio: 4 / 3;
+    border-radius: 7px;
 }
 
 .box:hover {
@@ -111,9 +109,10 @@ a:hover {
 
 .box img {
     width: 100%;
-    height: auto;
-    object-fit: contain; /* image complete */
-    /* object-position: center; */
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    display: block;
     transition: all 0.3s ease;
 }
 
@@ -135,7 +134,6 @@ a:hover {
     grid-row: 3; /* les 2 box reste dans la meme ligne, plus presisement
     la troisieme ligne*/
 }
-
 /* style the footer with social media, thermes and condition */
 .footer {
     display: flex;
