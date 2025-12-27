@@ -37,11 +37,11 @@ a {
     position: sticky; /* inportant to use sticky cause it's better than fixed*/
     top: 0;
     left: 0;
-    z-index: 10;
+    z-index: 1;
 }
 
 nav {
-    max-width: 1200px;
+    max-width: 1500px;
     display: flex;
     justify-content: space-between;
     align-items: center;
