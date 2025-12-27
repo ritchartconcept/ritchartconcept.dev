@@ -186,3 +186,29 @@ section li {
 .social-icon img:hover {
     filter: brightness(100) invert(1);
 }
+
+@media (max-width: 768px) {
+
+  nav {
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+
+  .nav-links {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .nav-links li a {
+    font-size: 1.4rem;
+  }
+
+  .container {
+    grid-template-columns: 1fr;
+  }
+
+  .footer {
+    flex-direction: column;
+    text-align: center;
+  }
+}
