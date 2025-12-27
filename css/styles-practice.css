@@ -68,7 +68,7 @@ a:hover {
 }
 
 #logo {
-    width: 120px;
+    width: 15%;
     padding-left: 50px;
 }
 
@@ -104,6 +104,7 @@ a:hover {
     overflow: hidden; /* super important pour éviter les débordements */
     border-radius: 8px;
     padding: 0.8rem;
+    aspect-ratio: 4 / 3;
 }
 
 .box:hover {
