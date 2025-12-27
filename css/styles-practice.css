@@ -41,7 +41,7 @@ a {
 }
 
 nav {
-    max-width: 1500px;
+    width: 90%;
     display: flex;
     justify-content: space-between;
     align-items: center;
