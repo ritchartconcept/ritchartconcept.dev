@@ -18,7 +18,7 @@ ul li {
 }
 
 img {
-    width: 10%;
+    width: 100%;
     height: auto;
 }
 
@@ -40,7 +40,6 @@ a {
     z-index: 1;
     display: flex;
     align-items: center;
-    z-index: 10;
 }
 
 nav {
