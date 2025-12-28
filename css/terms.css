@@ -82,6 +82,35 @@ a:hover {
     list-style: none;
 }
 
+.sidebar {
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    width: 250px;
+    z-index: 999;
+    background-color: rgba(244, 243, 243, 0.697);
+    backdrop-filter: blur(10px);
+    box-shadow: -10px 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.sidebar li {
+    width: 100%;
+    padding-left: 30px;
+}
+
+.sidebar a {
+    width: 100%;
+}
+
+.sidebar #logo {
+    width: 90px;
+}
+
 /* style terms */
 .terms-page {
     padding: 10rem 2rem 4rem;
@@ -212,3 +241,31 @@ section li {
     text-align: center;
   }
 }
+
+/* ==========================================
+This is for the responsive display on all size
+devices <600px, 601px, 768px, 992px, 1200px>
+the syntax is: @media (min-width: 600px) {}.
+   ==========================================*/
+
+   @media (max-width: 800px){
+    .hideonmobile{
+        display: none;
+    }
+
+    .main-head {
+        width: 100%;
+        background-color: rgb(244, 243, 243);
+        
+    }
+
+    .container {
+        width: 100%;
+        background-color: rgb(185, 41, 185);
+    }
+
+    .footer {
+        color: #c543c1;
+        width: 100%;
+    }
+   }
