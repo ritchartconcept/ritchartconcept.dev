@@ -31,7 +31,7 @@ a {
 
 .main-head {
     background-color: rgb(244, 243, 243);
-    position: fixed; /* inportant to use top and left 
+    position: sticky; /* inportant to use top and left 
     value to 0 and give a min height of 10vh when I set a position*/
     top: 0;
     left: 0;
