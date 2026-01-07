@@ -256,6 +256,14 @@ small {
     font-size: 1.5rem;
 }
 
+.inline {
+    width: unset;
+}
+
+.form-group #agreement {
+    font-size: 1.2rem;
+}
+
 .privacy-policy {
     color: #a404cc;
     text-decoration: underline;
