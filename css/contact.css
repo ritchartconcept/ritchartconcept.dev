@@ -274,7 +274,6 @@ small {
 }
   
 .submit-btn {
-    width: 100%;
     padding: 1.4rem;
     background: #a30984;
     color: #fff;
@@ -289,6 +288,10 @@ small {
     cursor: pointer;
 }
 
+input[type="submit"] {
+    display: block;
+    width: 60%;
+}
   
 
   /* style the footer with social media, thermes and condition */
